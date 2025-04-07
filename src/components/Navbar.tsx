@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
                 <div className="text-4xl text-primary">MyBlog</div>
 
                 {/* Desktop Menu */}
-                <div className="hidden md:flex space-x-6 items-center">
+                <div className="hidden lg:flex space-x-6 items-center">
                     <Link href="#home" className="text-foreground hover:text-foreground/50 underline-animation">
                         HOME
                     </Link>
@@ -48,7 +48,7 @@ const Navbar: React.FC = () => {
                 </div>
 
                 {/* Mobile Menu */}
-                <div className="block md:hidden">
+                <div className="block lg:hidden">
                     <div className='flex items-center space-x-4'>
                         <ModeToggle />
                         <Sheet>

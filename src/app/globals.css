@@ -122,5 +122,32 @@
 }
 
 .underline-animation {
-  @apply relative cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] hover:scale-110 transition-transform duration-300 hover:font-semibold
+  @apply relative cursor-pointer ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-primary before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-primary after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] transition-transform duration-300 hover:text-primary
 }
+
+.scale-hover-span {
+  @apply transition-transform duration-[600ms] ease-in-out scale-100 cursor-default;
+}
+
+.scale-hover-span:hover {
+  @apply transition-transform ease-in-out duration-[100ms] scale-150;
+  transition-timing-function: cubic-bezier(0.2, 0, 0.3, 1);
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 0.5rem;
+  /* @apply rounded-t-full rounded-b-full bg-primary w-2; */
+}
+
+/* ::-webkit-scrollbar-track {
+  background: var(--background);
+} */
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-t-full rounded-b-full bg-primary;
+}
+
+/* ::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary-foreground);
+} */

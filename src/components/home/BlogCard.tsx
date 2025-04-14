@@ -11,7 +11,7 @@ export interface BlogCardProps {
 export default function BlogCard({ image, title, description }: BlogCardProps) {
   return (
     <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
-      <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-[#111] transform transition duration-500 hover:scale-105">
+      <div className="p-7 bg-white rounded-lg shadow-lg dark:bg-[#111] transform transition duration-500 hover:scale-105 hover:border-2 hover:border-primary">
         <Image 
           width={200} 
           height={150} 
@@ -22,7 +22,7 @@ export default function BlogCard({ image, title, description }: BlogCardProps) {
         <div className="mt-4">
           <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">{title}</h3>
           <p className="mt-2 text-gray-600 dark:text-gray-400">{description}</p>
-          <Button className="m-2" variant="outline">Read More</Button>
+          <Button className="m-2 cursor-pointer" variant="outline">Read More</Button>
         </div>
       </div>
     </div>

@@ -12,14 +12,15 @@ import {
 import { ModeToggle } from './ui/toggle';
 import { Button } from './ui/button';
 
-
 const Navbar: React.FC = () => {
 
   return (
     <nav className="border-b z-50 bg-background/50 sticky top-0 backdrop-blur">
       <div className="container mx-auto px-8 py-5 flex justify-between items-center">
         {/* Logo */}
-        <div className="text-4xl text-primary">MyBlog</div>
+        <Link href={"/"} className="text-4xl text-primary">
+          MyBlog
+        </Link>
 
         {/* Desktop Menu */}
         <div className="hidden lg:flex space-x-6 items-center">

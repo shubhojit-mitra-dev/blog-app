@@ -10,7 +10,7 @@ import {
   SheetTrigger
 } from "@/components/ui/sheet";
 import { ModeToggle } from './ui/toggle';
-import { Button } from './ui/button';
+import { buttonVariants } from './ui/button';
 
 const Navbar: React.FC = () => {
 
@@ -38,15 +38,11 @@ const Navbar: React.FC = () => {
           </Link>
           <ModeToggle />
           <div className='flex gap-2'>
-            <Link href={"/login"}>
-              <Button variant="default">
-                LOGIN
-              </Button>
+            <Link href={"/login"} className={buttonVariants({ variant: "default" })}>
+              LOGIN
             </Link>
-            <Link href={"/signup"}>
-              <Button variant="outline">
-                SIGNUP
-              </Button>
+            <Link href={"/signup"} className={buttonVariants({ variant: "outline" })}>
+              SIGNUP
             </Link>
           </div>
         </div>
@@ -80,12 +76,12 @@ const Navbar: React.FC = () => {
                     </Link>
                   </div>
                   <div className='flex flex-col items-center gap-8'>
-                    <Button variant="default" className='text-2xl px-10 py-7'>
+                    <Link href={"/login"} className={buttonVariants({ variant: "outline" })}>
                       LOGIN
-                    </Button>
-                    <Button variant="outline" className='text-2xl px-10 py-7'>
+                    </Link>
+                    <Link href={"/signup"} className={buttonVariants({ variant: "outline" })}>
                       SIGNUP
-                    </Button>
+                    </Link>
                   </div>
                 </div>
               </SheetContent>

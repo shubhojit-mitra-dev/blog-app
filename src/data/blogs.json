@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Understanding TypeScript",
+    "description": "A comprehensive guide to getting started with TypeScript and its features.",
+    "coverImage": "https://i.ytimg.com/vi/gs0lpdB9okM/maxresdefault.jpg",
+    "author": "John Doe",
+    "createdAt": "2023-10-01T10:00:00Z",
+    "updatedAt": "2023-10-01T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "title": "The Future of JavaScript",
+    "description": "Exploring the latest trends and updates in the JavaScript ecosystem.",
+    "coverImage": "https://www.98thpercentile.com/hubfs/830x434%20%281%29-Oct-22-2024-03-53-46-9877-PM.png",
+    "author": "Jane Smith",
+    "createdAt": "2023-10-02T12:00:00Z",
+    "updatedAt": "2023-10-02T12:00:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Building Scalable Web Apps",
+    "description": "Tips and techniques for creating scalable and maintainable web applications.",
+    "coverImage": "https://cdn.prod.website-files.com/61bb26fe53aeb2a18bbd17e4/6784f939dee90d45a52fe847_Hero%20Image.webp",
+    "author": "Alice Johnson",
+    "createdAt": "2023-10-03T14:00:00Z",
+    "updatedAt": "2023-10-03T14:00:00Z"
+  },
+  {
+    "id": 4,
+    "title": "CSS in 2023: What's New?",
+    "description": "An overview of the latest CSS features and how to use them effectively.",
+    "coverImage": "https://cloud2data.com/wp-content/uploads/2023/02/CSS3.jpeg",
+    "author": "Bob Brown",
+    "createdAt": "2023-10-04T16:00:00Z",
+    "updatedAt": "2023-10-04T16:00:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Mastering React Hooks",
+    "description": "A deep dive into React Hooks and how to use them to build powerful components.",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:900/1*3d0jsQppieVP5XL6KGK6YA.png",
+    "author": "Charlie Davis",
+    "createdAt": "2023-10-05T18:00:00Z",
+    "updatedAt": "2023-10-05T18:00:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Introduction to Next.js",
+    "description": "Learn the basics of Next.js and how to build server-side rendered React applications.",
+    "coverImage": "https://i.ytimg.com/vi/QnoD4pzZe-I/hqdefault.jpg",
+    "author": "Emily White",
+    "createdAt": "2023-10-06T20:00:00Z",
+    "updatedAt": "2023-10-06T20:00:00Z"
+  }
+]

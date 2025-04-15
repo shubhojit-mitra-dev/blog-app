@@ -1,25 +1,41 @@
-import tsImage from "@/assets/typescript.webp";
+"use client";
+
+import { useEffect, useState } from "react";
 import BlogCard from "./BlogCard";
 
-const blogs = [
-  {
-    image: tsImage,
-    title: "Blog Post Title 1",
-    description: "A brief description of the blog post goes here. It should be engaging and informative."
-  },
-  {
-    image: "https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    title: "Blog Post Title 2",
-    description: "A brief description of the blog post goes here. It should be engaging and informative."
-  },
-  {
-    image: "https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg",
-    title: "Blog Post Title 3",
-    description: "A brief description of the blog post goes here. It should be engaging and informative."
-  }
-];
+interface Blog {
+  id: number;
+  title: string;
+  description: string;
+  coverImage: string;
+  author: string;
+  createdAt: string;
+  updatedAt: string;
+}
 
 export default function BlogsSection() {
+  const [blogs, setBlogs] = useState<Blog[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function fetchLatestBlogs() {
+      try {
+        const response = await fetch('/api/blogs/latest');
+        if (!response.ok) {
+          throw new Error('Failed to fetch blogs');
+        }
+        const data = await response.json();
+        setBlogs(data);
+      } catch (error) {
+        console.error('Error fetching blogs:', error);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    fetchLatestBlogs();
+  }, []);
+
   return (
     <section className="py-12 bg-gray-100 dark:bg-[#1b1b1b]">
       <div className="container px-4 mx-auto">
@@ -28,14 +44,18 @@ export default function BlogsSection() {
           <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">Check out our most popular blog posts</p>
         </div>
         <div className="flex flex-wrap justify-center">
-          {blogs.map((blog, index) => (
-            <BlogCard
-              key={index}
-              image={blog.image}
-              title={blog.title}
-              description={blog.description}
-            />
-          ))}
+          {loading ? (
+            <p>Loading latest blogs...</p>
+          ) : (
+            blogs.map((blog) => (
+              <BlogCard
+                key={blog.id}
+                image={blog.coverImage || "https://via.placeholder.com/400x250"}
+                title={blog.title}
+                description={blog.description}
+              />
+            ))
+          )}
         </div>
       </div>
     </section>

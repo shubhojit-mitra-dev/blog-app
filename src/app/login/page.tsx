@@ -98,7 +98,7 @@ const Login = () => {
             </div>
           </CardContent>
           <CardFooter className="flex flex-col space-y-2 text-center text-sm text-muted-foreground">
-            <div>Don&apos;t have an account? <Link href="/register" className="underline underline-offset-4 hover:text-primary">Sign up</Link></div>
+            <div>Don&apos;t have an account? <Link href="/signup" className="underline underline-offset-4 hover:text-primary">Sign up</Link></div>
             <div><Link href="/forgot-password" className="underline underline-offset-4 hover:text-primary">Forgot password?</Link></div>
           </CardFooter>
         </Card>

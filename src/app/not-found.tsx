@@ -10,6 +10,20 @@ import notFound from '@/assets/not-found.svg';
 export default function NotFound() {
     return (
        <div className="flex flex-col lg:flex-row items-center justify-center h-screen bg-background text-foreground overflow-hidden -mt-20">
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.6 }}
+                className="hidden lg:block mt-12 sm:w-1/2 p-10"
+            >
+                <Image
+                    width={300}
+                    height={300}
+                    src={notFound}
+                    alt="Not Found Illustration"
+                    className="w-full h-full"
+                />
+            </motion.div>
             <div className='flex flex-col items-center sm:w-1/2'>
                 <motion.div
                     initial={{ opacity: 0, y: -20 }}
@@ -35,20 +49,6 @@ export default function NotFound() {
                     </Link>
                 </motion.div>
             </div>
-            <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.6 }}
-                className="mt-12 sm:w-1/2 p-10"
-            >
-                <Image
-                    width={300}
-                    height={300}
-                    src={notFound}
-                    alt="Not Found Illustration"
-                    className="w-full h-full"
-                />
-            </motion.div>
         </div>
 
     );

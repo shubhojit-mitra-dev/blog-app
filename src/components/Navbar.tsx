@@ -38,12 +38,16 @@ const Navbar: React.FC = () => {
           </Link>
           <ModeToggle />
           <div className='flex gap-2'>
-            <Button variant="default">
-              LOGIN
-            </Button>
-            <Button variant="outline">
-              SIGNUP
-            </Button>
+            <Link href={"/login"}>
+              <Button variant="default">
+                LOGIN
+              </Button>
+            </Link>
+            <Link href={"/signup"}>
+              <Button variant="outline">
+                SIGNUP
+              </Button>
+            </Link>
           </div>
         </div>
 

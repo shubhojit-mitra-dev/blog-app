@@ -3,10 +3,10 @@ import blogs from '@/data/blogs.json';
 
 export async function GET(
     request: NextRequest,
-    { params }: { params: { id: string } }
+    {params}: {params: Promise<{ id: string }>}
 ) {
-    const id = params.id;
-    console.log(request);
+    const {id} = await params;
+    
     if (!id) {
         return NextResponse.json(
             { message: 'Invalid blog ID' },

@@ -29,13 +29,13 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "cdn.pixabay.com",
+        hostname: "www.98thpercentile.com",
         port: "",
         pathname: "/**",
       },
       {
         protocol: "https",
-        hostname: "www.gravatar.com",
+        hostname: "cdn.prod.website-files.com",
         port: "",
         pathname: "/**",
       }

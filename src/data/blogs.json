@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Understanding TypeScript",
     "description": "A comprehensive guide to getting started with TypeScript and its features.",
-    "coverImage": "",
+    "coverImage": "https://i.ytimg.com/vi/gs0lpdB9okM/maxresdefault.jpg",
     "author": "John Doe",
     "createdAt": "2023-10-01T10:00:00Z",
     "updatedAt": "2023-10-01T10:00:00Z"
@@ -12,7 +12,7 @@
     "id": 2,
     "title": "The Future of JavaScript",
     "description": "Exploring the latest trends and updates in the JavaScript ecosystem.",
-    "coverImage": "",
+    "coverImage": "https://www.98thpercentile.com/hubfs/830x434%20%281%29-Oct-22-2024-03-53-46-9877-PM.png",
     "author": "Jane Smith",
     "createdAt": "2023-10-02T12:00:00Z",
     "updatedAt": "2023-10-02T12:00:00Z"
@@ -21,7 +21,7 @@
     "id": 3,
     "title": "Building Scalable Web Apps",
     "description": "Tips and techniques for creating scalable and maintainable web applications.",
-    "coverImage": "",
+    "coverImage": "https://cdn.prod.website-files.com/61bb26fe53aeb2a18bbd17e4/6784f939dee90d45a52fe847_Hero%20Image.webp",
     "author": "Alice Johnson",
     "createdAt": "2023-10-03T14:00:00Z",
     "updatedAt": "2023-10-03T14:00:00Z"

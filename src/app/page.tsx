@@ -7,7 +7,7 @@ import BlogsSection from "@/components/home/BlogsSection";
 
 export default function Home() {
   return (
-    <main className="dark:bg-[#111]">
+    <main className="">
       <HeroSection />
       <PricingSection />
       <TestimonialsSection />

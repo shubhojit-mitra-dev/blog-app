@@ -40,7 +40,7 @@ const pricingData = [
 
 export default function PricingSection() {
   return (
-    <section className="py-12 bg-gray-100 dark:bg-[#1b1b1b]">
+    <section className="py-12">
       <div className="container px-4 mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-200">Pricing Plans</h2>

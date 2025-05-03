@@ -1,0 +1,78 @@
+{
+  "hero": {
+    "title": "About DevCodeJourney",
+    "subtitle": "Where code comes to life through stories and knowledge-sharing."
+  },
+  "aboutMe": {
+    "paragraphs": [
+      "Hi, I'm Shubhojit Mitra, a Full Stack Next.js developer passionate about building scalable web applications with a focus on AI integrations, type-safety, and consistent user interfaces.",
+      "Currently working as an Online Python Tutor at Einstein Square, I help young students aged 8-13+ discover the joy of programming through Python, HTML, CSS, and beginner-level Java. I'm also the Lead Student Developer at the OPEN Community, where I guide student developers on technical projects and actively participate in OSOC (OPEN Summer of Code) discussions.",
+      "I believe in creating technology that's accessible, performant, and delightful to use. My educational background in BTech CSE with specialization in Full Stack Development from the University of Petroleum & Energy Studies has equipped me with a strong foundation in modern web development practices."
+    ]
+  },
+  "whyIWrite": {
+    "cards": [
+      {
+        "title": "Sharing Knowledge",
+        "content": "Programming is a continuous learning journey. By documenting my discoveries, challenges, and solutions, I hope to create resources that help other developers overcome similar obstacles more efficiently."
+      },
+      {
+        "title": "Demystifying Complex Concepts",
+        "content": "Many programming concepts can seem intimidating at first. I break down these complex topics into digestible pieces, making them more approachable for developers at all skill levels."
+      },
+      {
+        "title": "Building Community",
+        "content": "Writing creates opportunities for discussion and collaboration. I want to foster a community where we can learn from each other and collectively improve our craft."
+      }
+    ]
+  },
+  "howMyBlogsHelp": {
+    "intro": "My blog posts focus on practical, real-world applications of web development concepts. Whether you're looking to understand TypeScript better, explore the future of JavaScript, or build more scalable applications, my goal is to provide content that:",
+    "points": [
+      "Accelerates your learning with clear, concise explanations",
+      "Provides practical code examples you can use in your own projects",
+      "Shares industry best practices and performance optimization techniques",
+      "Explores cutting-edge technologies and how they can solve real problems",
+      "Offers insights from my experiences working on diverse projects"
+    ],
+    "conclusion": "I write the blogs I wish existed when I was learning - comprehensive yet accessible, technical yet practical, and always with the reader's growth in mind."
+  },
+  "expertise": {
+    "sections": [
+      {
+        "title": "Frontend Development",
+        "skills": "HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, TypeScript"
+      },
+      {
+        "title": "Backend & Databases",
+        "skills": "NextJS API Routes, NodeJS, Zod, Prisma, Drizzle, MongoDB, MySQL"
+      },
+      {
+        "title": "UI Libraries & Tools",
+        "skills": "Shadcn UI, Material UI, Daisy UI, Git, GitHub, Docker, Figma, Webflow"
+      }
+    ]
+  },
+  "connect": {
+    "title": "Let's Connect!",
+    "description": "Have questions or want to discuss a potential collaboration? Reach out to me!",
+    "links": [
+      {
+        "text": "Email Me",
+        "url": "mailto:mitrashubhojit2005@gmail.com"
+      },
+      {
+        "text": "GitHub",
+        "url": "https://github.com/shubhojit-mitra-dev"
+      },
+      {
+        "text": "LinkedIn",
+        "url": "https://linkedin.com/in/shubhojit-mitra-dev"
+      },
+      {
+        "text": "Portfolio",
+        "url": "https://shubhojit-mitra-dev.vercel.app/portfolio"
+      }
+    ]
+  }
+}

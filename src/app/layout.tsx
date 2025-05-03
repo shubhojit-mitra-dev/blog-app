@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { ThemeProvider } from "@/providers/theme-provider";
 import Footer from "@/components/home/Footer";
+import BackgroundPattern from "@/components/BackgroundPattern";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -36,6 +37,7 @@ export default function RootLayout({
           defaultTheme="light"
           enableSystem
         >
+          <BackgroundPattern />
           <Navbar />
           {children}
           <Footer />

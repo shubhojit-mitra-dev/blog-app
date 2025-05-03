@@ -34,7 +34,7 @@ export default function HeroSection() {
             <span ref={el} />
           </span>
         </h1>
-        <div className="mt-4 flex flex-wrap text-lg text-gray-500 dark:text-gray-300 w-full">
+        <div className="mt-4 flex flex-wrap justify-center lg:justify-start text-lg text-gray-500 dark:text-gray-300 w-full">
           {content.split(' ').map((word, wordIndex) => (
             <div key={wordIndex} className="flex mr-1 scale-hover-span">
               {[...word].map((letter, letterIndex) => (
@@ -49,9 +49,15 @@ export default function HeroSection() {
           ))}
         </div>
         {/* <div className="mb-12 ml-8 mt-3 h-1 w-64 sm:w-96 bg-primary -rotate-3 rounded-full"></div> */}
+        <div className="flex flex-col md:flex-row items-center justify-center lg:justify-start gap-x-5">
+
         <Link href="/blog">
-          <Button className="text-xl py-6 mt-8 cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out">Get Started</Button>
+          <Button className="text-md py-5 mt-8 cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out">My Blogs</Button>
         </Link>
+        <Link href="/about">
+          <Button variant={"outline"} className="text-md py-5 mt-8 cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out">Learn More</Button>
+        </Link>
+        </div>
       </div>
       <div className="w-full mt-4 lg:mt-0 lg:w-1/2 hover:scale-105 transition-transform duration-300 ease-in-out">
         <Image src="https://www.creative-tim.com/twcomponents/svg/website-designer-bro-purple.svg" alt="tailwind css components" className="w-full h-full max-w-md mx-auto" width={400} height={200} />

@@ -10,7 +10,6 @@ import {
   SheetTrigger
 } from "@/components/ui/sheet";
 import { ModeToggle } from './ui/toggle';
-import { buttonVariants } from './ui/button';
 
 const Navbar: React.FC = () => {
 
@@ -18,8 +17,8 @@ const Navbar: React.FC = () => {
     <nav className="border-b z-50 bg-background/50 sticky top-0 backdrop-blur">
       <div className="container mx-auto px-8 py-5 flex justify-between items-center">
         {/* Logo */}
-        <Link href={"/"} className="text-4xl text-primary">
-          MyBlog
+        <Link href={"/"} className="text-2xl font-extrabold text-primary">
+          {"<DevCodeJourney/>"}
         </Link>
 
         {/* Desktop Menu */}
@@ -37,14 +36,14 @@ const Navbar: React.FC = () => {
             CONTACT
           </Link>
           <ModeToggle />
-          <div className='flex gap-2'>
+          {/* <div className='flex gap-2'>
             <Link href={"/login"} className={buttonVariants({ variant: "default" })}>
               LOGIN
             </Link>
             <Link href={"/signup"} className={buttonVariants({ variant: "outline" })}>
               SIGNUP
             </Link>
-          </div>
+          </div> */}
         </div>
 
         {/* Mobile Menu */}
@@ -75,14 +74,14 @@ const Navbar: React.FC = () => {
                       CONTACT
                     </Link>
                   </div>
-                  <div className='flex flex-col items-center gap-8'>
+                  {/* <div className='flex flex-col items-center gap-8'>
                     <Link href={"/login"} className={buttonVariants({ variant: "outline" })}>
                       LOGIN
                     </Link>
                     <Link href={"/signup"} className={buttonVariants({ variant: "outline" })}>
                       SIGNUP
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </SheetContent>
             </Sheet>

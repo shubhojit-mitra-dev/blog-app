@@ -64,7 +64,12 @@ const BlogPage = () => {
     }, [slugs]);
 
     if (loading) {
-        return <div className="max-w-5xl mx-auto p-4">Loading blog...</div>;
+        return (
+            <div className="flex flex-col items-center justify-center h-[60vh] w-full">
+                <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
+                <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">Loading blog...</p>
+            </div>
+        );
     }
 
     if (error || !blog) {

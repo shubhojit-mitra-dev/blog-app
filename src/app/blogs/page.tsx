@@ -42,15 +42,16 @@ const BlogsPage = () => {
     }, []);
 
     return (
-        <div className="py-12 bg-gray-50 dark:bg-gray-900 min-h-screen">
+        <div className="py-12 min-h-screen">
             <div className="container mx-auto px-4">
                 <h1 className="text-4xl font-bold text-center mb-8 text-gray-800 dark:text-white">
                     All Blogs
                 </h1>
 
                 {loading && (
-                    <div className="text-center py-10">
-                        <p className="text-lg text-gray-600 dark:text-gray-300">Loading blogs...</p>
+                    <div className="flex flex-col items-center justify-center py-16 w-full">
+                        <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
+                        <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">Loading blogs...</p>
                     </div>
                 )}
 

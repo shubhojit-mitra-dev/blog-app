@@ -9,7 +9,7 @@ import notFound from '@/assets/not-found.svg';
 
 export default function NotFound() {
     return (
-       <div className="flex flex-col lg:flex-row items-center justify-center h-screen bg-background text-foreground overflow-hidden -mt-20">
+       <div className="flex flex-col lg:flex-row items-center justify-center h-screen overflow-hidden -mt-20">
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}

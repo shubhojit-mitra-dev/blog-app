@@ -27,13 +27,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="container px-8 py-10 mx-auto lg:h-screen lg:space-x-8 lg:flex lg:items-center"
-      style={{
-        backgroundImage: `radial-gradient(circle, rgba(0,0,0,0.05) 2px, transparent 1px)`,
-        backgroundSize: "16px 16px",
-        backgroundRepeat: "repeat",
-      }}
-    >
+    <section className="container px-8 py-10 mx-auto lg:h-screen lg:space-x-8 lg:flex lg:items-center relative">
       <div className="w-full text-center lg:text-left lg:w-1/2 lg:-mt-8 pb-10 border-b-2">
         <h1 className="text-3xl leading-snug text-gray-800 dark:text-gray-200 md:text-4xl">
           A <span className="font-semibold">free repository</span> for community <br className="hidden md:block" /> blogs about <br className="md:hidden" /> <span className="font-semibold underline decoration-primary">

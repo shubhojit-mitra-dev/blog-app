@@ -45,7 +45,10 @@ export default function BlogsSection() {
         </div>
         <div className="flex flex-wrap justify-center">
           {loading ? (
-            <p>Loading latest blogs...</p>
+            <div className="flex flex-col items-center justify-center py-8 w-full">
+              <div className="w-10 h-10 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
+              <p className="mt-4 text-lg text-gray-500 dark:text-gray-400">Loading blogs...</p>
+            </div>
           ) : (
             blogs.map((blog) => (
               <BlogCard

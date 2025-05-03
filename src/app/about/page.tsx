@@ -85,7 +85,7 @@ export default function AboutPage() {
             <div className="md:w-1/2 flex justify-center">
               <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-primary">
                 <Image 
-                  src="https://avatars.githubusercontent.com/u/shubhojit-mitra-dev" 
+                  src="https://avatars.githubusercontent.com/u/157738162?v=4" 
                   alt="Shubhojit Mitra" 
                   fill
                   className="object-cover"

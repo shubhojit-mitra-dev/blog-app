@@ -52,5 +52,14 @@
     "author": "Shubhojit Mitra",
     "createdAt": "2025-05-03T17:22:07Z",
     "updatedAt": "2025-05-03T17:22:07Z"
+  },
+  {
+    "id": 7,
+    "title": "Modern State Management in React Applications",
+    "description": "Exploring effective state management techniques for complex React applications in 2025.",
+    "coverImage": "/modern-state-management-in-react-applications.png",
+    "author": "Shubhojit Mitra",
+    "createdAt": "2025-05-05T22:00:00Z",
+    "updatedAt": "2025-05-05T22:00:00Z"
   }
 ]

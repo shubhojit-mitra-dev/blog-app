@@ -61,7 +61,7 @@ const BlogsPage = () => {
                     </div>
                 )}
 
-                <div className="flex flex-wrap justify-center">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                     {loading ? (
                         <p>Loading latest blogs...</p>
                     ) : (

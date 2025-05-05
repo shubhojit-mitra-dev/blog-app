@@ -182,7 +182,7 @@ export default function AboutPage() {
               <p className="mt-4 text-lg text-muted-foreground">Loading blogs...</p>
             </div>
           ) : (
-            <div className="flex flex-wrap justify-center">
+            <div className="frid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center">
               {blogs.map((blog) => (
                 <BlogCard
                   key={blog.id}

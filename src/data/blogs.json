@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Understanding TypeScript",
     "description": "A comprehensive guide to getting started with TypeScript and its features.",
-    "coverImage": "https://i.ytimg.com/vi/gs0lpdB9okM/maxresdefault.jpg",
+    "coverImage": "/understanding-typescript.png",
     "author": "Shubhojit Mitra",
     "createdAt": "2025-04-10T09:25:18Z",
     "updatedAt": "2025-04-10T09:25:18Z"
@@ -12,7 +12,7 @@
     "id": 2,
     "title": "The Future of JavaScript",
     "description": "Exploring the latest trends and updates in the JavaScript ecosystem.",
-    "coverImage": "https://www.98thpercentile.com/hubfs/830x434%20%281%29-Oct-22-2024-03-53-46-9877-PM.png",
+    "coverImage": "/the-future-of-javascript.png",
     "author": "Shubhojit Mitra",
     "createdAt": "2025-04-15T14:32:42Z",
     "updatedAt": "2025-04-15T14:32:42Z"
@@ -21,7 +21,7 @@
     "id": 3,
     "title": "Building Scalable Web Apps",
     "description": "Tips and techniques for creating scalable and maintainable web applications.",
-    "coverImage": "https://cdn.prod.website-files.com/61bb26fe53aeb2a18bbd17e4/6784f939dee90d45a52fe847_Hero%20Image.webp",
+    "coverImage": "/building-scalable-web-apps.png",
     "author": "Shubhojit Mitra",
     "createdAt": "2025-04-21T11:07:35Z",
     "updatedAt": "2025-04-21T11:07:35Z"
@@ -30,7 +30,7 @@
     "id": 4,
     "title": "CSS in 2025: What's New?",
     "description": "An overview of the latest CSS features and how to use them effectively.",
-    "coverImage": "https://cloud2data.com/wp-content/uploads/2023/02/CSS3.jpeg",
+    "coverImage": "/css-in-2025.png",
     "author": "Shubhojit Mitra",
     "createdAt": "2025-04-26T16:43:19Z",
     "updatedAt": "2025-04-26T16:43:19Z"

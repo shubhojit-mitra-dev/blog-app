@@ -5,9 +5,9 @@ import path from 'path';
 
 export async function GET(
     request: NextRequest,
-    context: { params: { id: string } }
+    { params }: { params: Promise<{ id: string }> }
 ) {
-    const id = context.params.id;
+    const { id } = await params;
     
     if (!id) {
         return NextResponse.json(

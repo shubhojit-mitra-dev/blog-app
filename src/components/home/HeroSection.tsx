@@ -51,7 +51,7 @@ export default function HeroSection() {
         {/* <div className="mb-12 ml-8 mt-3 h-1 w-64 sm:w-96 bg-primary -rotate-3 rounded-full"></div> */}
         <div className="flex flex-col md:flex-row items-center justify-center lg:justify-start gap-x-5">
 
-        <Link href="/blog">
+        <Link href="/blogs">
           <Button className="text-md py-5 mt-8 cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out">My Blogs</Button>
         </Link>
         <Link href="/about">

@@ -3,7 +3,7 @@ import { Poppins, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { ThemeProvider } from "@/providers/theme-provider";
-import Footer from "@/components/home/Footer";
+import Footer from "@/components/Footer";
 import BackgroundPattern from "@/components/BackgroundPattern";
 
 const poppins = Poppins({

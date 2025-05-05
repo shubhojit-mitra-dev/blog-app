@@ -117,25 +117,16 @@
     @apply border-border outline-ring/50;
   }
   
-  /* Simplified approach for the dotted background */
+  /* Remove the duplicate dot pattern from body */
   body {
     @apply bg-background text-foreground;
-    background-image: radial-gradient(rgba(0, 0, 0, 0.1) 2px, transparent 2px);
-    background-size: 24px 24px;
-    background-position: 0 0;
+    /* Background pattern is now handled by BackgroundPattern component */
   }
   
-  /* .dark body {
-    background-image: radial-gradient(rgba(255, 255, 255, 0.1) 2px, transparent 2px);
-    background-size: 24px 24px;
-    background-position: 0 0;
-  } */
-
-  /* Ensure sections with specific backgrounds maintain some transparency */
-  /* section.bg-secondary\/10 {
-    background-color: var(--secondary) !important;
-    opacity: 0.95;
-  } */
+  /* Ensure sections with specific backgrounds have appropriate transparency */
+  section.bg-secondary\/10 {
+    background-color: rgba(var(--secondary), 0.1);
+  }
 }
 
 .underline-animation {
